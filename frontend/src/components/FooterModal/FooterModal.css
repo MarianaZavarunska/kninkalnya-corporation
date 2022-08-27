@@ -1,0 +1,39 @@
+.footer-modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--modal-background-color);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s;
+    z-index: 3;
+}
+
+.footer-modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.footer-modal-content {
+    padding: 20px;
+    border-radius: 2px;
+    background-color: var(--secondary-color);
+    box-shadow: 0 7px 10px var(--text-color);
+    width: 30vw;
+    transform: scale(0.5);
+    transition: all 0.4s;
+}
+
+.footer-modal-content.active {
+    transform: scale(1);
+}
+
+.ant-alert-error {
+    position: absolute;
+    top: 0;
+}

@@ -1,0 +1,64 @@
+.dish-description{
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.dish-info{
+    display:flex;
+    justify-content:space-between;
+    font-size: 1rem;
+}
+
+.dish-info > span {
+    color: var(--primary-color);
+}
+
+.btn-servings{
+    display: flex;
+}
+
+.btn-servings > button{
+    height: 30px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 2px 5px;
+    outline: none;
+    border: none;
+}
+
+.btn-servings > button:first-of-type{
+    margin-right: 10px;
+}
+
+.btn-servings > button:last-of-type{
+    margin-left: 10px;
+}
+
+.ant-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ant-card-actions >li > span > button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+    padding: 4px;
+    outline: none;
+    border: none;
+}
+
+.ant-card-cover img {
+    height: 200px;
+    transition: 0.3s;
+}
+
+.ant-card-cover img:hover {
+    object-fit: scale-down;
+    transform: scaleZ(1);
+}

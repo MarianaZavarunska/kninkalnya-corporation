@@ -1,0 +1,52 @@
+form.logIn-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.logIn-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.logIn-content > input, .logIn-content > span {
+    width: 293px;
+    font-size: 1.5rem;
+    border-radius: 2px;
+}
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-container > a {
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+
+.btn-container > button {
+    width: 300px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    border:0;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    padding:  10px;
+    margin-top: 10px;
+}
+.btn-container > button:first-of-type {
+    background-color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.btn-container > button:last-of-type{
+    align-self:center;
+}

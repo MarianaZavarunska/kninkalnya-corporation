@@ -1,0 +1,15 @@
+.about-container > img {
+    width: 100%;
+    height: 60vh;
+    margin: 20px auto;
+}
+
+.about-container > div {
+    font-size: 1.1rem;
+    max-width: 640px;
+    width: 100%;
+    margin: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,43 @@
+.ant-list-pagination {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+section.restaurants-list{
+    margin: 10px auto;
+    text-align: center;
+    background-color: var(--delivery-color);
+}
+
+section.restaurants-list > h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.ant-list-vertical .ant-list-item {
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.ant-list-items {
+    margin-top: 10px;
+}
+.ant-list-item-meta{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.ant-list-item-meta-description {
+    font-size: 1.1rem;
+}
+
+.ant-list-item-main > h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.ant-list-item-meta-avatar{
+    margin-right: -40px;
+}

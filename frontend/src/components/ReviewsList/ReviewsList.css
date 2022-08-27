@@ -1,0 +1,72 @@
+.ant-comment-content-author > span:first-of-type{
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+.ant-comment-content-author > span:last-of-type{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.ant-comment-content-detail > div{
+    font-size: .9rem;
+}
+
+.ant-list-header{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 60px;
+    font-family: cursive;
+    color: var(--primary-color);
+}
+
+.ant-list-split .ant-list-header{
+    border-bottom: none;
+}
+
+.ant-list{
+    margin: 30px;
+}
+
+.comment-list > div:nth-child(2) > div > ul{
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.ant-list-items > li{
+    height: 100%;
+    display: flex;
+}
+
+.ant-comment {
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+}
+
+.comment-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.ant-comment-inner{
+    display: flex;
+    flex-direction: row;
+}
+
+.ant-comment-content,
+.comment-content-wrapper > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.ant-comment-content-detail{
+    display: flex;
+    flex-basis: 100%;
+}

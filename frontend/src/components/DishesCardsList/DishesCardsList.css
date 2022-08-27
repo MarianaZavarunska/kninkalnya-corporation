@@ -1,0 +1,7 @@
+.dishes-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+    margin-left: 20px;
+}
+

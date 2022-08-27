@@ -1,0 +1,40 @@
+.header_menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 15px 0;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.item_header_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.header_menu > div:last-of-type {
+    display:flex;
+    gap:10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -20px;
+}
+.header_menu > div:last-of-type > div {
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.header_menu > div > button {
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    border:0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    padding:  10px 15px;
+}
